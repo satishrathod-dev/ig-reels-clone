@@ -1,0 +1,84 @@
+.videoFooter {
+  position: relative;
+  margin-left: 20px;
+  bottom: 100px;
+}
+
+.videoFooter_text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.videoFooter_text > h3 {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.videoFooter_text > h3 > button {
+  color: white;
+  font-weight: 900;
+  text-transform: inherit;
+}
+
+.videoFooter_actions{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    justify-content: space-between;
+    color: white;
+}
+
+.css-uks7c6-MuiSvgIcon-root{
+    padding: 0 6px;
+}
+
+.videoFooter_actionsRight{
+    display: flex ;
+}
+
+.videoFooter_stat{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.videoFooter_stat > p{
+    margin-right: 2px;
+}
+
+/* Styles for the ticker */
+.videoFooter_ticker {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  width: 60%;
+  overflow: hidden;
+}
+
+.videoFooter_icon {
+    position: absolute;
+    left: 5px;
+    color: white;
+}
+
+.videoFooter_ticker h1 {
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+  white-space: nowrap;
+  animation: scroll-left 10s linear infinite;
+  margin: 0;
+}
+
+/* @keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
