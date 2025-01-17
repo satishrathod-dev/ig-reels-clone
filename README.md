@@ -16,7 +16,7 @@ Installation
 Follow these steps to run the project locally on your machine:
 
 # Clone the repository:
-git clone https://github.com/yourusername/ig-reels-clone.git
+git clone https://github.com/satishrathod-dev/ig-reels-clone.git
 
 #Navigate to the project directory:
 cd ig-reels-clone
